@@ -1,0 +1,24 @@
+.each-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  color: #000000;
+}
+
+.btn {
+  color: #ff0b37;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #ff0b37;
+  padding: 12px;
+  height: 44px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  margin-left: 12px;
+}

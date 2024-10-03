@@ -1,0 +1,43 @@
+.app-container {
+  background-color: #ffc2a0;
+  background-size: cover;
+  min-height: 100vh;
+  padding-right: 12px;
+  padding-right: 12px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos-container {
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 8px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto';
+  max-width: 250px;
+}
+
+@media screen and (min-width:768px){
+    .todos-container{
+        max-width: 540px;
+    }
+}
+
+.heading {
+  color: #ff8542;
+  font-size: 38px;
+  text-align: center;
+}
+
+.items-container{
+    list-style-type: none;
+}
